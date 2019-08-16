@@ -6,7 +6,7 @@ public class ValidatorException extends RuntimeException {
 
 	public ValidatorException() {
 		// TODO Auto-generated constructor stub
-		super(I18n.getMessage("org.cx.game.exception.ValidatorException"));
+		super(I18n.getMessage("org.cx.game.validator.exception.ValidatorException"));
 	}
 	
 	public ValidatorException(String description) {
