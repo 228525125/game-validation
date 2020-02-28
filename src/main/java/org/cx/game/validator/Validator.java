@@ -1,11 +1,13 @@
 package org.cx.game.validator;
 
+import java.io.Serializable;
+
 /**
  * 验证器，命名规则：（修饰语）主语 + 谓语 + Validator
  * @author admin
  *
  */
-public abstract class Validator implements IValidator {
+public abstract class Validator implements IValidator, Serializable {
 
 	private String message = ErrorMessage_NULL;
 	

@@ -1,5 +1,6 @@
 package org.cx.game.validator;
 
+import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -8,7 +9,7 @@ import java.util.List;
  * @author chenxian
  *
  */
-public class Errors {
+public class Errors implements Serializable {
 
 	/**
 	 * 存储有错误的验证器
